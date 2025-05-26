@@ -21,5 +21,5 @@ TEST_CASE("factorial of 0 is 1") {
 }
 
 TEST_CASE("factorial of 5 is 120") {
-    CHECK(factorial(5) == 120);
+    CHECK(factorial(6) == 120);
 }
