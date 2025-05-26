@@ -1,6 +1,6 @@
 SRC =	main.cpp \
 
-NAME = factorial
+NAME = factoriaM
 
 OBJDIR = build
 OBJ = $(SRC:%.cpp=$(OBJDIR)/%.o)
