@@ -37,7 +37,7 @@ $(NAME): $(OBJ_SRC) $(OBJ)
 tests_run: $(OBJ_T) $(OBJ)
 	$(CXX) -o test $(OBJ_T) $(OBJ) $(CXXFLAGS)
 	@echo "--------------------------------"
-	@./test
+	@./test -fc=true
 
 $(OBJDIR)/%.o: %.cpp
 	@mkdir -p $(dir $@)
